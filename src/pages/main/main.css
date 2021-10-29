@@ -1,0 +1,39 @@
+.strivingGrid3ElementIMG img {
+    transition: 0.5s ease;
+}
+.strivingGrid3ElementIMG:hover img {
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+.strivingGrid3ElementIMG {
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.strivingGrid2ElementBC img {
+    transition: 0.5s ease;
+}
+.strivingGrid2ElementBC:hover img {
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+.strivingGrid2ElementBC {
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.strivingGrid2ElementButton{
+	transition:0.5s ease;
+}
+.strivingGrid2ElementButton:hover{
+	transition:0.5s ease;
+}
+
+.strivingGrid2Element:hover .strivingGrid2ElementButton{
+    background: #33afe5;
+    color: #fff;
+}
+.footerLeftItem:hover svg {
+    transform: rotate(380deg);
+    transition: 0.5s ease;
+}

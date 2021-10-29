@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.004" height="37.004" viewBox="0 0 37.004 37.004">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.934" y2="0.929" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e00e48"/>
+      <stop offset="0.159" stop-color="#e86514"/>
+      <stop offset="0.322" stop-color="#fbda1b"/>
+      <stop offset="0.506" stop-color="#47af6d"/>
+      <stop offset="0.732" stop-color="#38b0e5"/>
+      <stop offset="1" stop-color="#81549a"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_6223" data-name="Group 6223" transform="translate(0 -2.346)">
+    <path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square" d="M33.039,2.25H3.965A3.965,3.965,0,0,0,0,6.215V35.289a3.965,3.965,0,0,0,3.965,3.965H15.3V26.673H10.1V20.752h5.2V16.239c0-5.133,3.056-7.969,7.737-7.969a31.525,31.525,0,0,1,4.586.4v5.038H25.041c-2.545,0-3.339,1.579-3.339,3.2v3.845h5.681l-.909,5.921H21.7V39.254H33.039A3.965,3.965,0,0,0,37,35.289V6.215A3.965,3.965,0,0,0,33.039,2.25Z" transform="translate(0 0.096)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

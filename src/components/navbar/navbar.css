@@ -1,0 +1,191 @@
+.navbar {
+     margin-top: 40px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.2rem;
+     z-index: 0;
+     animation: fade 3s ease 0s 1 forwards;
+     top: 0;
+}
+
+.navbarContainer {
+     display: flex;
+     max-width: 1430px;
+     width: 90%;
+}
+
+.navbarLeft {
+     flex: 30%;
+     display: flex;
+     align-items: center;
+}
+
+.navbarCenter {
+     flex: 40%;
+     font-size: var(--header);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 10px;
+}
+
+.navbarCenterLink {
+     z-index: 20;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--color-white);
+     margin: 0 45px;
+     cursor: pointer;
+     color: white;
+     font-size: 29px;
+     font-weight: normal;
+}
+
+.navbarCenterLink:hover {
+     transform: scale(1.1, 1.1);
+}
+
+.navbarCenterLink:active {
+     transform: scale(1.2, 1.2);
+}
+
+.navbarRight {
+     flex: 30%;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+
+.navbarRightIcon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 188px;
+     height: 60px;
+     border-radius: 64px;
+     background-color: #5d98af;
+}
+
+.navbarRightIconText {
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     z-index: 5;
+}
+
+.navbarRightIcon:hover {
+     transform: scale(1.05, 1.05);
+}
+
+.navbarRightIcon:active {
+     transform: scale(1.08, 1.08);
+}
+
+.navbarCenterIcon {
+     width: 100px;
+     position: relative;
+}
+
+.navbarCenterIconBlob {
+     position: absolute;
+     top: -55px;
+     left: -20px;
+}
+
+.navbarCenterIconPanda {
+     width: 100px;
+     height: auto;
+     top: -35px;
+     left: 0px;
+     position: absolute;
+}
+
+.navbarMobile {
+     display: none;
+}
+
+.navbarMobileButton {
+     display: none;
+}
+
+.MobileDN {
+     display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+     .navbarMobileButton {
+          display: flex;
+          margin-left: 50px;
+     }
+     .navbarContainer {
+          display: none;
+     }
+     .navbarMobile {
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 120px;
+     }
+
+     .navbarMenu {
+          z-index: 999;
+          background-color: rgb(255, 255, 255);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: -10px;
+          left: -100%;
+          opacity: 1;
+          transition: all 0.5s ease;
+          padding-top: 50px;
+          overflow: hidden;
+     }
+
+     .navbarMenu.active {
+          top: 0;
+          left: 0;
+          opacity: 1;
+          transition: all 0.5s ease;
+     }
+
+     .navbarMobileTop {
+          display: flex;
+          width: 90%;
+     }
+
+     .navbarMobileTopLeft {
+          flex: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .navbarMobileTopLeft.close {
+          justify-content: flex-start;
+     }
+
+     .navbarMobileMain {
+          width: 80%;
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .navbarCenterLink {
+          color: black;
+          font: normal normal 300 20px/30px Poppins;
+          text-align: left;
+          font-weight: 500;
+          font-size: 20px;
+          margin-bottom: 40px;
+     }
+}
